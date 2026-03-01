@@ -24,7 +24,7 @@ loginBtn.addEventListener('click', async () => {
   verifyingBox.style.display = 'block';
 
   try {
-    const response = await fetch("https://racks-9hel.onrender.com", {
+    const response = await fetch("https://racks-9hel.onrender.com/api/login", {
       method: "POST",
       headers: { 
         "Content-Type": "application/json" 
